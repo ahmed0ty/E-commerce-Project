@@ -61,7 +61,7 @@ const Register = () => {
 
 
   return (
-    <div className='py-5'>
+    <div className='py-5 flex flex-col justify-center items-center h-screen'>
       <h1 className='mb-8 text-green-700 text-5xl font-bold text-center'>Registeration Form</h1>
       <div className='md:w-[60%] mx-auto md:p-0 p-5'>
 
