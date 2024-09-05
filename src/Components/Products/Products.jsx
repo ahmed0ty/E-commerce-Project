@@ -45,8 +45,8 @@ const Products = () => {
       
       <section className='py-8'>
         <div className='w-full md:w-[90%] m-auto'>
-          <Homeslider />
-          <Categoryslider />
+        <Homeslider />
+        <Categoryslider />
           <div className='flex flex-wrap justify-center items-center'>
             {data?.data.data.map((product, idx) => (
               <div key={idx} className='w-full sm:w-1/2 md:w-1/4 lg:w-1/6 p-4'>
