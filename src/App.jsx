@@ -17,7 +17,7 @@ import Cart from "./Components/Cart/Cart";
 import Payment from "./Components/Payment/Payment";
 import Allorders from "./Components/Allorders/Allorders";
 import Categories from "../src/Components/Category/Category";
-import Brands from "../src/Components/Brand/Brand";
+
 import Categorydetails from "./Components/Categorydetails/Categorydetails";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -30,7 +30,7 @@ function App() {
     {path:"/",element:(<Protectedroute><Products/></Protectedroute>),},
     {path:"/Category",element:(<Protectedroute><Category/></Protectedroute>),},
     {path:"/Brand",element:(<Protectedroute><Brand/></Protectedroute>),},
-    {path:"/Brands",element:(<Protectedroute><Brands/></Protectedroute>),},
+    {path:"/Brands",element:(<Protectedroute><Brand/></Protectedroute>),},
     {path:"/Productdetails/:id",element:(<Protectedroute><Productdetails/></Protectedroute>),},
     {path:"/Cart",element:(<Protectedroute><Cart/></Protectedroute>),},
     {path:"/Payment",element:(<Protectedroute><Payment/></Protectedroute>),},
